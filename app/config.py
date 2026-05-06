@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     # App
     app_env: str = "development"
     secret_key: str = "dev-secret-key"
-        allowed_origins: str = "http://localhost:3000,https://eradeacuariospa.com,https://www.eradeacuariospa.com"
+        allowed_origins: str = "http://localhost:3000,https://eradeacuariospa.com,https://www.eradeacuariospa.com,https://eradeacuario.cl,https://www.eradeacuario.cl"
 
     @property
     def origins_list(self) -> List[str]:
