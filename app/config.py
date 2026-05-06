@@ -11,7 +11,6 @@ class Settings(BaseSettings):
     supabase_url: str = ""
     supabase_anon_key: str = ""
     supabase_service_role_key: str = ""
-
     # Stripe
     stripe_secret_key: str = ""
     stripe_webhook_secret: str = ""
@@ -25,7 +24,7 @@ class Settings(BaseSettings):
     # App
     app_env: str = "development"
     secret_key: str = "dev-secret-key"
-    allowed_origins: str = "http://localhost:3000"
+        allowed_origins: str = "http://localhost:3000,https://eradeacuariospa.com,https://www.eradeacuariospa.com"
 
     @property
     def origins_list(self) -> List[str]:
