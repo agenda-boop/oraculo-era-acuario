@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+anthropic
+python-dotenv
+pydantic
+pydantic-settings
+httpx
+stripe
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
